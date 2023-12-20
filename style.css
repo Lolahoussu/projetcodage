@@ -1,0 +1,56 @@
+ body {
+            background-color: #D9D9D9;
+            margin: 0;
+            padding: 0;
+        }
+  #Top {
+            font-size: 18px;
+            font-family: Inter;
+            text-align: center;
+        }
+
+        #Top ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        #Top li {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 18px;
+            font-family: Inter;
+        }
+
+        nav {
+            width: 90%;
+            text-align: center;
+            margin: 0 auto;
+            word-spacing: 10px;
+        }
+
+#img {
+    text-align: center;
+}
+
+#logo {
+    width: 85px;
+    height: 90px;
+    float: right;
+}
+
+.img {
+    width: 100%;
+    max-width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #Top {
+        word-spacing: 10px;
+    }
+}
+

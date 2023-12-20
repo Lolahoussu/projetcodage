@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #D9D9D9;
+}
+
+#Top {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    word-spacing: 80px;
+    text-align: center;
+}
+
+#logo {
+    width: 85px;
+    height: 90px;
+    float: right;
+}
+
+.info-box {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.info {
+    color: black;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#plan {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #Top {
+        word-spacing: 10px;
+    }
+
+    #plan {
+        width: 100%;
+        height: auto;
+    }
+}
+    

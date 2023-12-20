@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#Top {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    word-spacing: 80px;
+    text-align: center;
+}
+ #main-content {
+            width: 100%;
+            max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */
+            margin: 0 auto; /* Centre horizontalement */
+        }
+#nav {
+    width: 90%;
+    text-align: left;
+    margin-left: 100px;
+}
+
+#logo {
+    width: 85px;
+    height: 90px;
+    float: right;
+}
+
+#MON_PANIER {
+    color: black;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+
+
+#ARTICLE_COUNT {
+    color: black;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    word-wrap: break-word;
+}
+
+#Récapitulatif {
+    color: black;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+#separator {
+    color: black;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    word-wrap: break-word;
+}
+
+#Sous-total {
+    color: black;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#Total {
+    color: black;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#validateCart {
+    height: 53px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 75px;
+    padding-right: 56px;
+    left: 26px;
+    top: 218px;
+    position: absolute;
+    background: #8C8C8C;
+    justify-content: flex-end;
+    align-items: center;
+    display: inline-flex;
+}
+
+#validateText {
+    width: 375px;
+    height: 23px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#SubtotalAmount {
+    width: 62px;
+    height: 31px;
+    left: 272px;
+    top: 94px;
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#TotalAmount {
+    width: 53px;
+    height: 31px;
+    left: 272px;
+    top: 137px;
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#DeliveryAndTaxes {
+    color: black;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+#AdditionalInfo {
+    color: black;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    word-wrap: break-word;
+}
+
+#Klarna {
+    color: black;
+    font-size: 15px;
+    font-family: 'Inika', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 600px) {
+    #Top {
+        font-size: 14px;
+    }
+
+    nav ul {
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    div[style^="width: 100%;"] {
+        width: 100%;
+    }
+
+    div[style^="width: 358.23px; height: 69px; background: #F5F5F5; border: 1px black solid"] {
+        width: 100%;
+    }
+}

@@ -1,0 +1,82 @@
+   body {
+            background-color: #D9D9D9;
+            margin: 0;
+            padding: 0;
+        }
+
+      #logo {
+    width: 85px;
+    height: 90px;
+    float: right;
+}
+        #Top {
+            font-size: 18px;
+            font-family: Inter;
+            text-align: center;
+        }
+
+        #Top ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        #Top li {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 18px;
+            font-family: Inter;
+        }
+
+        nav {
+            width: 90%;
+            text-align: center;
+            margin: 0 auto;
+            word-spacing: 10px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
+
+        .img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%; /* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
+            height: auto;
+        }
+
+        #oeuvres tendances {
+            text-align: center;
+        }
+
+        #oeuvres tendances img {
+            margin: 10px; /* Espace entre les images */
+        }
+
+        #box {
+            background-color: red;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px; /* Ajustez la marge selon vos préférences */
+        }
+
+        #sinscrire {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 12px;
+            font-weight: 800;
+        }
+
+        @media screen and (max-width: 600px) {
+            #Top {
+                font-size: 15px;
+            }
+        }
+    
+   
+  
